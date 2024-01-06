@@ -1,0 +1,113 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Store">
+    <xs:annotation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="navigation">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ul">
+                <xs:annotation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="li" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType mixed="true">
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="logo" minOccurs="0"/>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="type" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Stores">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StoreNum" maxOccurs="unbounded" minOccurs="0">
+                <xs:annotation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Store_Detail">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Image">
+                            <xs:annotation>
+                            </xs:annotation>
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="id" use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="StoreName"/>
+                          <xs:element name="Address">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="Street" minOccurs="0"/>
+                                <xs:element type="xs:string" name="City"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="Tel-no">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:long" name="Mobile"/>
+                                <xs:element type="xs:string" name="Landline" minOccurs="0"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="Website" minOccurs="0"/>
+                          <xs:element name="SocialMedia">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="Instagram" minOccurs="0"/>
+                                <xs:element type="xs:string" name="Facebook" minOccurs="0"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="type" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Giftcard_Detail">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Card">
+                            <xs:annotation>
+                            </xs:annotation>
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="type" use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="Cost"/>
+                          <xs:element type="xs:string" name="Validity"/>
+                          <xs:element type="xs:string" name="Usernumbers"/>
+                          <xs:element type="xs:string" name="Discount"/>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="code" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="id" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

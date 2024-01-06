@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- css link-->
+<?xml-stylesheet type="text/css" href="catalog_20049095.css"?>
+<!-- schema link -->
+
+<Store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog_20049095.xsd" >
+    <navigation> <!-- This element contains the navigation panel -->
+        <ul>
+            <li><logo></logo></li>
+            <li>CAROLINA</li>
+            <li>Would You Give Someone Your Last Gift card?</li>
+            <li type="info"><![CDATA[gift cards]]></li> <!--This element has character data. -->
+        </ul>
+        
+    </navigation>
+
+    <Stores> <!-- This element contains all stores-->
+        <StoreNum id="S01">
+            <Store_Detail type="Clothing"> <!-- This element contains the details of the store. -->
+                <Image id ="I01"></Image>
+                <StoreName>Zara</StoreName>
+                <Address>
+                    <Street>Boudha</Street> 
+                    <City>Kathmandu</City>
+                </Address>
+                <Tel-no>
+                    <Mobile>9823456789</Mobile>
+                    <Landline>01-4567892</Landline>
+                </Tel-no>
+                <Website>https://www.zara.com/</Website>
+                <SocialMedia>
+                    <Instagram> Instagram: https://www.instagram.com/zara/</Instagram>
+                    <Facebook> Facebook: https://www.facebook.com/Zara</Facebook>
+                </SocialMedia>
+
+            </Store_Detail>
+
+            <Giftcard_Detail code="C01" > <!-- This element contains the details of the giftcard. -->
+                <Card type= "available">Digital Card</Card> 
+                <Cost>NRs. 2500</Cost>
+                <Validity>Valid: December 2022</Validity>
+                <Usernumbers>No. of users: 25</Usernumbers>
+                <Discount>30% off</Discount>
+            </Giftcard_Detail>
+        </StoreNum>
+
+        <StoreNum id="S02">
+            <Store_Detail type="Clothing">
+                <Image id ="I02"></Image>
+                <StoreName>Converse</StoreName>
+                <Address>
+                    <Street>Durbarmarg</Street> 
+                    <City>Kathmandu</City>
+                </Address>
+                <Tel-no>
+                    <Mobile>9834571629</Mobile>
+                    <Landline>01-4123456</Landline>
+                </Tel-no>
+                <Website>
+                https://www.converse.com/us
+                </Website>
+                <SocialMedia>
+                    <Instagram>Instagram: https://www.instagram.com/converse/</Instagram>
+                </SocialMedia>
+
+            </Store_Detail>
+
+            <Giftcard_Detail code="C02">
+                <Card>Physical Card</Card> 
+                <Cost>NRs. 1050</Cost>
+                <Validity>Valid: June 20222</Validity>
+                <Usernumbers>No. of users: 10</Usernumbers>
+                <Discount>10% off</Discount>
+            </Giftcard_Detail>
+        </StoreNum>
+
+        <StoreNum id="S03">
+            <Store_Detail type="Clothing">
+                <Image id ="I03"></Image>
+                <StoreName>Mango</StoreName>
+                <Address>
+                    <Street>Castleford</Street> 
+                    <City>London</City>
+                </Address>
+                <Tel-no>
+                    <Mobile>2798228142</Mobile>
+                </Tel-no>
+                <Website>
+                https://shop.mango.com/gb
+                </Website>
+                <SocialMedia>
+                    <Instagram>Instagram: https://www.instagram.com/mango/</Instagram>
+                    <Facebook>Facebook: https://www.facebook.com/mango.com</Facebook>
+                </SocialMedia>
+
+            </Store_Detail>
+
+            <Giftcard_Detail code="C03">
+                <Card>Physical Card</Card> 
+                <Cost>NRs. 1000</Cost>
+                <Validity>Valid: December 2022</Validity>
+                <Usernumbers>No. of users: 20</Usernumbers>
+                <Discount>25% off</Discount>
+            </Giftcard_Detail>
+        </StoreNum>
+
+        <StoreNum id="S04">
+            <Store_Detail type="Clothing">
+                <Image id ="I04"></Image>
+                <StoreName>HnM</StoreName>
+                <Address>
+                    <Street>Vasant Kunj</Street> 
+                    <City>New Delhi</City>
+                </Address>
+                <Tel-no>
+                    <Mobile>8594016263</Mobile>
+                </Tel-no>
+                <Website>
+                https://www2.hm.com/en_gb/index.html
+                </Website>
+                <SocialMedia>
+                    <Instagram>Instagram: https://www.instagram.com/hm/</Instagram>
+                    <Facebook>Facebook: https://www.facebook.com/hm</Facebook>
+                </SocialMedia>
+
+            </Store_Detail>
+
+            <Giftcard_Detail code="C04">
+                <Card type= "available">Digital Card</Card> 
+                <Cost>NRs. 1000</Cost>
+                <Validity>Valid: September 2022</Validity>
+                <Usernumbers>No. of users: 50</Usernumbers>
+                <Discount>15% off</Discount>
+            </Giftcard_Detail>
+        </StoreNum>
+
+        <StoreNum id="S05">
+            <Store_Detail type="Clothing">
+                <Image id ="I05"></Image>
+                <StoreName>T's Armoire</StoreName>
+                <Address>
+                    <Street>Kupondole</Street> 
+                    <City>Lalitpur</City>
+                </Address>
+                <Tel-no>
+                    <Mobile>9809879087</Mobile>
+                    <Landline>01-4455009</Landline>
+                </Tel-no>
+                <Website>
+                https://tsarmoire.com.np/
+                </Website>
+                <SocialMedia>
+                    <Instagram>Instagram: https://www.instagram.com/tsarmoire/</Instagram>
+                </SocialMedia>
+
+            </Store_Detail>
+
+            <Giftcard_Detail code="C05">
+                <Card>Digital Card</Card> 
+                <Cost>NRs. 2000</Cost>
+                <Validity>Valid: December 2022</Validity>
+                <Usernumbers>No. of users: 25</Usernumbers>
+                <Discount>25% off</Discount>
+            </Giftcard_Detail>
+        </StoreNum>
+
+        <StoreNum id="S06">
+            <Store_Detail type="Food">
+                <Image id ="I06"></Image>
+                <StoreName>KFC</StoreName>
+                <Address>
+                    <Street>Pulchowk</Street> 
+                    <City>Lalitpur</City>
+                </Address>
+                <Tel-no>
+                    <Mobile>9845231212</Mobile>
+                    <Landline>01-5512437</Landline>
+                </Tel-no>
+                <Website>
+                https://www.kfc.com.np/menu/
+                </Website>
+                <SocialMedia>
+                    <Instagram>Instagram: https://www.instagram.com/kfc/</Instagram>
+                    <Facebook>Facebook: https://www.facebook.com/KFCNepal/?brand_redir=7144906559</Facebook>
+                </SocialMedia>
+
+            </Store_Detail>
+
+            <Giftcard_Detail code="F01">
+                <Card>Physical Card</Card> 
+                <Cost>NRs. 600</Cost>
+                <Validity>Valid: July 2022</Validity>
+                <Usernumbers>No. of users: 250</Usernumbers>
+                <Discount>10% off</Discount>
+            </Giftcard_Detail>
+        </StoreNum>
+
+        <StoreNum id="S07">
+            <Store_Detail type="Food">
+                <Image id ="I07"></Image>
+                <StoreName>Pepe Pizza</StoreName>
+                <Address>
+                    <Street>Chakrapath</Street> 
+                    <City>Kathmandu</City>
+                </Address>
+                <Tel-no>
+                    <Mobile>9809099898</Mobile>
+                    <Landline>01-4345692</Landline>
+                </Tel-no>
+                <SocialMedia>
+                    <Instagram>Instagram: https://www.instagram.com/pepepizza.np/</Instagram>
+                    <Facebook>Facebook: https://www.facebook.com/PEPE-PIZZA-1194888907235979/</Facebook>
+                </SocialMedia>
+
+            </Store_Detail>
+
+            <Giftcard_Detail code="F02">
+                <Card>Physical Card</Card> 
+                <Cost>NRs. 400</Cost>
+                <Validity>Valid: August 2022</Validity>
+                <Usernumbers>No. of users: 100</Usernumbers>
+                <Discount>15% off</Discount>
+            </Giftcard_Detail>
+        </StoreNum>
+
+        <StoreNum id="S08">
+            <Store_Detail type="Food">
+                <Image id ="I08"></Image>
+                <StoreName>Pizza Hut</StoreName>
+                <Address>
+                    <City>Kathmandu</City>
+                </Address>
+                <Tel-no>
+                    <Mobile>9812131517</Mobile>
+                    <Landline>01-4411780</Landline>
+                </Tel-no>
+                <SocialMedia>
+                    <Facebook>Facebook: https://www.facebook.com/PizzaHut</Facebook>
+                </SocialMedia>
+
+
+            </Store_Detail>
+
+            <Giftcard_Detail code="F03">
+                <Card>Digital Card</Card> 
+                <Cost>NRs. 400</Cost>
+                <Validity>Valid: October 2022</Validity> 
+                <Usernumbers>No. of users: 50</Usernumbers>
+                <Discount>10% off</Discount>
+            </Giftcard_Detail>
+        </StoreNum>
+
+        <StoreNum id="S09">
+            <Store_Detail type="Food">
+                <Image id ="I09"></Image>
+                <StoreName>Himalayan Java</StoreName>
+                <Address>
+                    <Street>Thamel</Street> 
+                    <City>Kathmandu</City>
+                </Address>
+                <Tel-no>
+                    <Mobile>9810293847</Mobile>
+                    <Landline>01-4444009</Landline>
+                </Tel-no>
+                <Website>
+                https://himalayanjava.com/
+                </Website>
+                <SocialMedia>
+                    <Instagram>Instagram: https://www.instagram.com/himalayanjava/?hl=en</Instagram>
+                    <Facebook>Facebook: https://www.facebook.com/himalayanjava/</Facebook>
+                </SocialMedia>
+
+            </Store_Detail>
+
+            <Giftcard_Detail code="F04">
+                <Card>Digital Card</Card> 
+                <Cost>NRs. 500</Cost>
+                <Validity>Valid: December 2022</Validity>
+                <Usernumbers>No. of users: 50</Usernumbers>
+                <Discount>25% off</Discount>
+            </Giftcard_Detail>
+        </StoreNum>
+
+        <StoreNum id="S10">
+            <Store_Detail type="Food">
+                <Image id ="I10"></Image>
+                <StoreName>Roadhouse Cafe</StoreName>
+                <Address>
+                    <City>Lalitpur</City>
+                </Address>
+                <Tel-no>
+                    <Mobile>9876543245</Mobile>
+                    <Landline>01-4567892</Landline>
+                </Tel-no>
+                <Website>
+                https://roadhouse.com.np/
+                </Website>
+                <SocialMedia>
+                    <Instagram>Instagram: https://www.instagram.com/roadhousecafenepal/?hl=en</Instagram>
+                    <Facebook>Facebook: https://www.facebook.com/RoadhouseCafeThamel/</Facebook>
+                </SocialMedia>
+
+            </Store_Detail>
+
+            <Giftcard_Detail code="F05">
+                <Card>Physical Card</Card>  
+                <Cost>NRs. 500</Cost>
+                <Validity>Valid: June 2022</Validity>
+                <Usernumbers>No. of users: 100</Usernumbers>
+                <Discount>10% off</Discount>
+            </Giftcard_Detail>
+        </StoreNum>
+
+        <StoreNum id="S11">
+            <Store_Detail type="Beauty/Skincare">
+                <Image id ="I11"></Image>
+                <StoreName>Beauty Hub</StoreName>
+                <Address>
+                    <Street>Kamaladi</Street>
+                    <City>Kathmandu</City>
+                </Address>
+                <Tel-no>
+                    <Mobile>9812345670</Mobile>
+                    <Landline>01-4444550</Landline>
+                </Tel-no>
+                <Website>
+                >http://beautyhubnepal.com/
+                </Website>
+                <SocialMedia>
+                    <Instagram>Instagram: https://www.instagram.com/beautyhubnepalofficial/</Instagram>
+                    <Facebook>Facebook: https://www.facebook.com/beautyhubnepal/</Facebook>
+                </SocialMedia>
+
+            </Store_Detail>
+
+            <Giftcard_Detail code="B01">
+                <Card>Digital Card</Card> 
+                <Cost>NRs. 2500</Cost>
+                <Validity>Valid: January 2023</Validity>
+                <Usernumbers>No. of users: 100</Usernumbers>
+                <Discount>20% off</Discount>
+            </Giftcard_Detail>
+        </StoreNum>
+
+        <StoreNum id="S12">
+            <Store_Detail type="Beauty/Skincare">
+                <Image id ="I12"></Image>
+                <StoreName>Lamour Beauty</StoreName>
+                <Address>
+                    <City>Kathmandu</City>
+                </Address>
+                <Tel-no>
+                    <Mobile>9809099887</Mobile>
+                </Tel-no>
+                <Website>
+                https://www.lamourbeauty.shop/
+                </Website>
+                <SocialMedia>
+                    <Instagram>Instagram: https://www.instagram.com/lamour.np/</Instagram>
+                    <Facebook>Facebook: https://www.facebook.com/LamourBeautyLLC/</Facebook>
+                </SocialMedia>
+
+            </Store_Detail>
+
+            <Giftcard_Detail code="B02">
+                <Card>Digital Card</Card> 
+                <Cost>NRs. 1800</Cost>
+                <Validity>Valid: October 2023</Validity>
+                <Usernumbers>No. of users: 25</Usernumbers>
+                <Discount>30% off</Discount>
+            </Giftcard_Detail>
+        </StoreNum>
+
+        <StoreNum id="S13">
+            <Store_Detail type="Beauty/Skincare">
+                <Image id ="I13"></Image>
+                <StoreName>Pretty Click</StoreName>
+                <Address>
+                    <Street>New Road</Street>
+                    <City>Kathmandu</City>
+                </Address>
+                <Tel-no>
+                    <Mobile>9812101845</Mobile>
+                    <Landline>01-4231111</Landline>
+                </Tel-no>
+                <Website>
+                https://prettyclickcosmetics.com/
+                </Website>
+                <SocialMedia>
+                    <Instagram>Instagram: https://www.instagram.com/prettyclicknepal/</Instagram>
+                    <Facebook>Facebook: https://www.facebook.com/prettyclicknepal/</Facebook>
+                </SocialMedia>
+
+            </Store_Detail>
+
+            <Giftcard_Detail code="B03">
+                <Card>Digital Card</Card> 
+                <Cost>NRs. 1500</Cost>
+                <Validity>Valid: December 2022</Validity>
+                <Usernumbers>No. of users: 80</Usernumbers>
+                <Discount>20% off</Discount>
+            </Giftcard_Detail>
+        </StoreNum>
+
+        <StoreNum id="S14">
+            <Store_Detail type="Beauty/Skincare">
+                <Image id ="I14"></Image>
+                <StoreName>Misumi Cosmetics</StoreName>
+                <Address>
+                    <Street>Kumaripati</Street>
+                    <City>Lalitpur</City>
+                </Address>
+                <Tel-no>
+                    <Mobile>9800002299</Mobile>
+                    <Landline>01-5566178</Landline>
+                </Tel-no>
+                <Website>
+                https://misumicosmetics.com/
+                </Website>
+                <SocialMedia>
+                    <Instagram>Instagram: https://www.instagram.com/misumicosmetics/</Instagram>
+                    <Facebook>Facebook: https://www.facebook.com/misumicosmetics/</Facebook>
+                </SocialMedia>
+
+            </Store_Detail>
+
+            <Giftcard_Detail code="B04">
+                <Card>Digital Card</Card>  
+                <Cost>NRs. 1550</Cost>
+                <Validity>Valid: March 2023</Validity>
+                <Usernumbers>No. of users: 100</Usernumbers>
+                <Discount>10% off</Discount>
+            </Giftcard_Detail>
+        </StoreNum>
+
+        <StoreNum id="S15">
+            <Store_Detail type="Beauty/Skincare">
+                <Image id ="I15"></Image>
+                <StoreName>Blush Bar</StoreName>
+                <Address>
+                    <City>Kathmandu</City>
+                </Address>
+                <Tel-no>
+                    <Mobile>9854321975</Mobile>
+                    <Landline>01-4417760</Landline>
+                </Tel-no>
+                <SocialMedia>
+                    <Instagram>Instagram: https://www.instagram.com/theblushbar_nepal/?hl=en</Instagram>
+                    <Facebook>Facebook: https://m.facebook.com/Blushbar-Nepal-2323799824504761/</Facebook>
+                </SocialMedia>
+
+            </Store_Detail>
+
+            <Giftcard_Detail code="B05">
+                <Card type= "available">Digital Card</Card> 
+                <Cost>NRs. 1000</Cost>
+                <Validity>Valid: September 2022</Validity>
+                <Usernumbers>No. of users: 50</Usernumbers>
+                <Discount>25% off</Discount>
+            </Giftcard_Detail>
+        </StoreNum>
+    </Stores>
+</Store>

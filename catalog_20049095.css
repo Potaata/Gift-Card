@@ -1,0 +1,288 @@
+Store{
+	background-color: #A37B73FF;
+    padding-bottom: 16px;
+	
+}
+Stores{
+    width:calc(100% - 300px);
+    height: 900px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: right;
+}
+
+navigation{
+        padding-top: 3em;
+        padding-bottom: 40px;
+        height: 100%;
+        float: left;
+        width: 300px;
+        position: fixed;
+        background-color: #3E282BFF;
+        font-family: Courier New;
+}
+
+
+ul{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+ul li{
+    font-size: 16px;
+    font-weight: 550;
+    letter-spacing: 3px;
+    padding-top: 15px;
+    display: block;
+    margin: 7px;
+    margin-left: 10%;
+    top: 150px;
+    color: #A37B73FF;
+}
+
+li[type="info"]{
+    color: #A37B73FF;
+}
+
+logo{
+    content: url("Main.jpg") ;
+    display: block;
+    height: 200px;
+    width: 200px;
+    margin-left: 10%;
+   
+}
+
+
+StoreNum{
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid;
+    width: 950px;
+    height: 380px;
+    padding-left: 10px;
+    font-weight: 400;
+    line-height: 1;
+    color: #202020;
+
+}
+
+Store_Detail{
+    position: relative;
+    display: inline-block;
+    width: 450px;
+    height: 100%;
+    text-align:justify;
+  
+
+}
+
+Image{
+    float: left;
+    width: 280px;
+    height: 100%;
+}
+
+StoreName{
+    display: block; 
+	color: #3E282BFF;
+	font-family: Lucida Handwriting;
+	font-size: 28px;
+	margin-left: 60%;
+    margin-top: 10px;
+	font-weight:bold;
+    padding-top: 1em;
+}
+
+
+Category,Address,Tel-no,Website,SocialMedia{
+	display: block; 
+	color: rgb(114, 66, 73);
+	font-family: garamond;
+	font-size: 22px;
+	margin-left: 60%;
+	font-weight: bold;
+    padding-top: 0.5em;
+}
+
+Street,City,Mobile,Landline,Instagram,Facebook{
+	display:flex;
+	margin: 0em;
+}
+
+
+Giftcard_Detail{
+    float: right;
+    position: relative;
+    display: block;
+    margin-top: 40px;
+    width: 250px;
+    height: 50%;
+    text-align:justify;
+    
+}
+
+Card,Cost,Validity,Usernumbers,Discount{
+	display: flex; 
+	color: rgb(114, 66, 73);
+	font-family: garamond;
+	font-size: 20px;
+	margin: 0.5em;
+	margin-left: 10%;
+	font-weight: bold;
+}
+
+
+
+#I01 {
+	content: url("S01.jpg");
+	margin-top: 50px;
+    margin-left: 5px;
+    display: block;
+	height: 200px;
+    width: 200px;
+
+}
+
+#I01 {
+	content: url("S01.jpg");
+    margin-top: 50px;
+    margin-left: 15px;
+	display: block;
+	height: 200px;
+    width: 200px;
+}
+
+#I02 {
+	content: url("S02.png");
+    margin-top: 50px;
+    margin-left: 15px;
+	display: block;
+	height: 200px;
+    width: 200px;
+}
+
+#I03 {
+	content: url("S03.jpg");
+    margin-top: 50px;
+    margin-left: 15px;
+	display: block;
+	height: 200px;
+    width: 200px;
+}
+
+#I04 {
+	content: url("S04.png");
+    margin-top: 50px;
+    margin-left: 15px;
+	display: block;
+	height: 200px;
+    width: 200px;
+}
+
+#I05 {
+	content: url("S05.jpg");
+    margin-top: 50px;
+    margin-left: 15px;
+	display: block;
+	height: 200px;
+    width: 200px;
+}
+
+#I06 {
+	content: url("S06.png");
+    margin-top: 50px;
+    margin-left: 15px;
+	display: block;
+	height: 200px;
+    width: 200px;
+}
+
+#I07 {
+	content: url("S07.jpg");
+    margin-top: 50px;
+    margin-left: 15px;
+	display: block;
+	height: 200px;
+    width: 200px;
+}
+
+#I08 {
+	content: url("S08.png");
+    margin-top: 50px;
+    margin-left: 15px;
+	display: block;
+	height: 200px;
+    width: 200px;
+}
+
+#I09 {
+	content: url("S09.jpg");
+    margin-top: 50px;
+    margin-left: 15px;
+	display: block;
+	height: 200px;
+    width: 200px;
+}
+
+#I10 {
+	content: url("S10.jpg");
+    margin-top: 50px;
+    margin-left: 15px;
+	display: block;
+	height: 200px;
+    width: 200px;
+}
+
+#I11 {
+	content: url("S11.jpg");
+    margin-top: 50px;
+    margin-left: 15px;
+	display: block;
+	height: 200px;
+    width: 200px;
+}
+
+#I12 {
+	content: url("S12.png");
+    margin-top: 50px;
+    margin-left: 15px;
+	display: block;
+	height: 200px;
+    width: 200px;
+}
+
+#I13 {
+	content: url("S13.jpg");
+    margin-top: 50px;
+    margin-left: 15px;
+	display: block;
+	height: 200px;
+    width: 200px;
+}
+
+#I14 {
+	content: url("S14.jpg");
+    margin-top: 50px;
+    margin-left: 15px;
+	display: block;
+	height: 200px;
+    width: 200px;
+}
+
+#I15 {
+	content: url("S15.jpg");
+    margin-top: 50px;
+    margin-left: 15px;
+	display: block;
+	height: 200px;
+    width: 200px;
+}
+
+@namespace zara url(https://www.zara.com/);
+
